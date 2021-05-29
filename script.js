@@ -1,0 +1,1 @@
+/* This animates the text */
