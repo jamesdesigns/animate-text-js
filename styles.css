@@ -28,6 +28,19 @@
   color: #ffffff; 
 }
 
+.sp-gray-bg {
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+  width: 100%; 
+  height: 100vh; 
+  background-color: #989898; 
+  margin: 0 auto; 
+  text-align: center; 
+  font-size: 45px; 
+  color: #ffffff; 
+}
+
 .sp-bg {
   display: flex; 
   align-items: center; 
