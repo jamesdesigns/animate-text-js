@@ -6,17 +6,18 @@
 
 body {
   font-family: 'Playfair Display', serif;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .container {
   width: 100%;
   height: auto;
-  max-width: 768px;
+  max-width: 1250px;
   background-color: transparent;
   margin: 0 auto;
   padding: 20px;
-  padding-top: 60px;
+  padding-top: 120px;
+  font-size: 4rem;
 }
 
 .instructions {
@@ -29,4 +30,18 @@ body {
   margin: 0 auto;
   text-align: center;
   color: white;
+}
+
+.quote {
+  margin-top: 0;
+  color: #4f5664;
+  line-height: 96px;
+  text-align: center;
+  overflow: hidden;
+  height: 100vh;
+  font-size: 5rem;
+}
+
+.split-line {
+  overflow: hidden;
 }
