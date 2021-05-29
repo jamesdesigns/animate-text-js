@@ -24,7 +24,7 @@
   background-color: teal; 
   margin: 0 auto; 
   text-align: center; 
-  font-size: 85px; 
+  font-size: 65px; 
   color: #ffffff; 
   padding: 0 15%;
 }
@@ -38,7 +38,7 @@
   background-color: #696969; 
   margin: 0 auto; 
   text-align: center; 
-  font-size: 45px; 
+  font-size: 65px; 
   color: #ffffff; 
   padding: 0 15%;
 }
@@ -59,7 +59,7 @@
 .quote {
   margin-top: 100px; 
   padding-bottom: 30px;
-  font-size: 60px; 
+  font-size: 65px; 
   color: #4f5664; 
   line-height: 76px; 
   text-align: center; 
