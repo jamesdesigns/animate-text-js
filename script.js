@@ -1,3 +1,4 @@
+// The script that animates the Quote Section
 const quotes = document.querySelectorAll(".quote");
 
 function setupSplits() {
