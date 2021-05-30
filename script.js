@@ -31,3 +31,21 @@ function setupSplits() {
 
 ScrollTrigger.addEventListener("refresh", setupSplits);
 setupSplits();
+
+
+/* New for ScrollTrigger */
+gsap.registerPlugin(ScrollTrigger);
+
+ScrollTrigger.defaults({
+  toggleActions: "restart pause resume pause"
+});
+
+gsap.to(".white", {
+  scrollTrigger: {
+    trigger: ".white",
+    toggleActions: "restart pause reverse pause"
+  }, 
+  duration: 1.5, 
+  backgroundColor: "#696969", 
+  ease: "none"
+});
